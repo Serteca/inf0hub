@@ -1,13 +1,15 @@
 <!DOCTYPE html>
 <html>
 	<head>
+		<link rel="shortcut icon" href="https://raw.githubusercontent.com/Serteca/inf0hub/main/Anotaci%C3%B3n%202023-09-14%20155228%20%C2%B4%C3%B1(2).png" />
 		<title>Infohub - Empresa de Ciberseguridad</title>
 		<link rel="stylesheet" href="style.css">
 		<meta charset="UTF-8"/>
 	</head>
 	<body>
-		<header>
-			<h1>Infohub</h1>
+		<header class="sticky-header">
+			<a class="logo" href="https://raw.githubusercontent.com/Serteca/inf0hub/main/Anotaci%C3%B3n%202023-09-14%20155228%20%C2%B4%C3%B1(2).png"><img class="logo" src="https://raw.githubusercontent.com/Serteca/inf0hub/main/Anotaci%C3%B3n%202023-09-14%20155228%20%C2%B4%C3%B1(2).png"/></a>
+			<h3>Infohub</h3>
 			<nav>
 				<ul>
 				
@@ -15,29 +17,116 @@
 				
 					
 				</p>
-					<li><a href="#">Inicio</a></li>
+					<li><a href="#inicio">Inicio</a></li>
 					<li><a href="#">Servicios</a></li>
-					<li><a href="#">Equipo</a></li>
+					<li><a href="#equipo">Equipo</a></li>
 					<li><a href="#">Contacto</a></li>
 				</ul>
 			</nav>
 		</header>
-		<main> 
-		<h2>Bienvenido a Infohub</h2>
-		<p>Somos una empresa líder en soluciones de ciberseguridad.</p>
+		<main>
+			<div class="inicio" id="inicio"> 
+				<h1>INFOHUB</h1>
+				<h2>Tu hub digital, a salvo con nosotros</h2>
+				<br><br><br><br><br><br>
+				<h2>¿DE DÓNDE SALIÓ LA IDEA DE LA EMPRESA?</h2>
+				<p>Somos tres estudiantes que, en nuestro tiempo libre, nos dedicabamos a ver las vulnerabilidades de los sistemas informáticos y un día mientras jugábamos al Diablo 4 se nos ocurrió que deberíamos montar una empresa para hacer más seguros los sistemas informáticos de la gente. Así fue como en el verano del año 2023 se nos ocurrió la idea de fundar Infohub, una empresa que se dedica a proteger la seguridad de todos nuestros clientes.</p>
+				<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+			</div>
+		<div class="equipo" id="equipo">
+			<h1>¿QUIENES SOMOS?</h1>
+			<div class="fotos">
+				<img src="https://static.wixstatic.com/media/fa8b72_6611bfe9df6a4872a6b76f863265741a~mv2.png/v1/fill/w_223,h_244,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/Ainz_Ooal_Gown.png" alt="Ainz_Ooal_Gown.png"/>
+				<p>	Cristian Ruíz</p>
+				<img src="https://static.wixstatic.com/media/85fea9_3c114920763d42ffbd9bf45efac356ed~mv2.png/v1/fill/w_309,h_309,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/png-transparent-sonic-dash-sonic-knuckles-sonic-the-hedgehog-knuckles-the-echidna-sonic-3d.png" alt="png-transparent-sonic-dash-sonic-knuckles-sonic-the-hedgehog-knuckles-the-echidna-sonic-3d"/>
+				<p>	Sergi Téllez</p>
+				<img src="https://static.wixstatic.com/media/85fea9_645f099224d349fa8fd3c2742118bc0a~mv2.jpg/v1/fill/w_168,h_299,al_c,q_80,enc_auto/images_jfif.jpg" alt="images.jfif" />
+				<p>	Martí Abad</p>
+			</div>
+		
+			<div class="texto">
+				<p>InfoHub es una empresa líder en el sector de seguridad tecnológica, especializada en 
+					brindar soluciones de seguridad informática y protección de datos. 
+					Nuestro enfoque se centra en prevenir, detectar y tomar medidas 
+					contra las posibles amenazas que pueden comprometer 
+					la seguridad de la información digital de nuestros clientes.
+					<br>
+					<br>
+					Nos caracterizamos por nuestra sólida arquitectura de seguridad, sostenida en tecnología
+					punta e innovación constante. Nuestra oferta abarca desde la seguridad de red y
+					la ciberseguridad, hasta servicios de claves cifradas, seguridad en la nube y protección
+					de amenazas avanzadas.
+					<br>
+					Asimismo, ofrecemos un servicio personalizado, ajustándose a 
+					las necesidades y requerimientos de cada cliente, independientemente del 
+					tamaño de su organización o el sector en el que opere.
+					<br>
+					<br>
+					La voluntad de InfoHub es proporcionar soluciones de seguridad accesibles y 
+					comprensibles para todos. A través de nuestros expertos profesionales, 
+					hacemos accesible el complejo mundo de la seguridad informática, 
+					ayudamos a nuestros clientes a comprender las amenazas y ofrecemos las mejores
+					estrategias para contrarrestarlas.
+					<br>
+					<br>
+					En InfoHub, la seguridad de su información es nuestra máxima prioridad.
+					Nos esforzamos por proteger su privacidad y garantizar la continuidad de sus operaciones
+					comerciales, brindándole la tranquilidad de que en un mundo digital,
+					está seguro con nosotros.</p>
+			</div>
+		</div>
 		<style>
 			body {
 			font-family: Arial, sans-serif;
+			color: white;
 			margin: 0;
 			padding: 0;
+			background-image: 
+			url("https://raw.githubusercontent.com/Serteca/inf0hub/main/c837a6_2119733e838e4a2f8813ebde736f99d5~mv2.jpg");
+			background-size: 1920px 1000px;
+			}
+
+			header{
+				position: fixed;
+				width: 100%;
 			}
 
 			p{
-			font-family:monospace;
+				font-size: x-large;
+				font-style: italic;
+				font-family: 'Courier New', Courier, monospace;
+			}
+			.equipo{
+				background-color: black;
+				margin-left: -12.5%;
+				margin-right: -12.5%;
+			}
+			.texto{
+				top: -1000px;
+				left: 700px;
+				right: 300px;
+				position: relative;
+				margin-right: 50%;
+				background-color: black;
+
+			}
+			.fotos{
+				position: relative;
+
+			}
+			h2{
+			font-family:Arial, Helvetica, sans-serif;
 			font-style: normal;
     		font-weight: 400;
 			font-size:xx-large;
-			
+			}
+
+			.logo {
+				width: 60px;
+				height: 50px;
+				top: 5px;
+				position: relative;
+				
 			}
 
 			header {
@@ -46,11 +135,16 @@
 			padding: 0px;
 			}
 
-			header h1 {
-			font-family: ;
+			header h3 {
+			font-family: monospace;
 			display: inline-block;
+			font-size: xx-large;
 			}
 
+			h1{
+				font-size: 100px;
+				font-variant: unset;
+			}
 			nav {
 			float: right;
 			}
