@@ -1,0 +1,37 @@
+cite{
+    font-size: xx-large;
+    font-style: normal;
+    color: rgb(255, 130, 130);
+    font-family: monospace;
+    font-weight: bolder;
+}
+body{
+    background-image: url("https://cdna.artstation.com/p/assets/images/images/002/664/530/large/ivan-bondar-trees-oceangrtgrg.jpg?1464272238"); 
+    background-position: fixed; 
+    background-size: contain; 
+    background-size: 105%;
+    color: white;
+
+}
+a{
+    color: rgb(0, 0, 0);
+}
+fieldset{
+    color: rgb(255, 255, 255);
+    align-items: center;
+    width: 100%;
+    height: 50%;
+    border: 4px rgb(255, 255, 255);
+    font-weight: bolder;
+
+}
+h1{
+    font-style: normal;
+    font-size: xxx-large;
+    color: rgb(0, 68, 255);
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    position: fixed;
+    left: 300px;
+    top: 0px;
+    font-weight: bolder;
+}
