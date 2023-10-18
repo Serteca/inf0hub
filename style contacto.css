@@ -6,10 +6,10 @@ cite{
     font-weight: bolder;
 }
 body{
-    background-image: url("https://cdna.artstation.com/p/assets/images/images/002/664/530/large/ivan-bondar-trees-oceangrtgrg.jpg?1464272238"); 
+    background-image: url("https://img.freepik.com/foto-gratis/fondo-cuadricula-digital-futurista-azul-oscuro-abstracto_53876-104051.jpg?size=626&ext=jpg&ga=GA1.1.1016474677.1696636800&semt=ais"); 
     background-position: fixed; 
-    background-size: contain; 
-    background-size: 105%;
+    background-size: 1920px 1000px;
+    
     color: white;
 
 }
@@ -34,4 +34,9 @@ h1{
     left: 300px;
     top: 0px;
     font-weight: bolder;
+}
+img{
+    position: relative;
+	width: 450px;
+    height: 350px; 
 }
